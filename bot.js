@@ -36,7 +36,7 @@ function respond() {
   } 
   else if(request.text && botRegexAd.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("306x240.jpeg.e6ba0a2e594b4832ace6573ec42ce3a2.large.jpg");
+    postMessage("http://s12.postimg.org/8mcho4fdp/306x240_jpeg_e6ba0a2e594b4832ace6573ec42ce3a2_la.jpg");
     this.res.end();
   }
   else if(request.text && botRegexRules.test(request.text)) {
