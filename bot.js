@@ -31,7 +31,7 @@ function respond() {
   } 
   else if(request.text && botRegexSalt.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://i.imgur.com/B5BSVqH.png");
+    postMessage("http://i.imgur.com/rEjrS5T.jpg");
     this.res.end();
   } 
   else if(request.text && botRegexAd.test(request.text)) {
